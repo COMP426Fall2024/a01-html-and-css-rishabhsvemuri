@@ -1,3 +1,40 @@
-p {
-    color: blue;
+#barbie{
+    background: pink;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#oppie{
+    background: grey;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+    select {
+        width: 11%
+    }
+}
+
+img {
+    width: 50%;
+}
+
+table, tr, td  {
+    border-color: black;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    td {
+        width: 200px;
+    }
+}
+
+#table {
+    text-align: center;
 }
