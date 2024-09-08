@@ -1,26 +1,118 @@
-#barbie{
-    background: #FF69B4;
-    width: 50%;
-    height: 100%;
-    float: left;
-    text-align: center;
-}
-
-#container {
+body {
     background-color: black;
 }
 
-#oppie{
-    background: rgb(99, 99, 99);
-    width: 50%;
-    height: 100%;
-    float: right;
-    text-align: center;
+#header {
+    .left {
+        float: left;
+        background-image: url(barbenheimer.jpg);
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+    }
+    .right {
+        float: right;
+        color: white;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        .text {
+            padding-top: 45%;
+        }
+    }
 }
 
-img {
-    width: 50%;
-    height: 35%;
+#the-battle {
+    color: white;
+    text-align: center;
+    padding-top: 60%;
+    height: 50%;
+    
+    .text {
+        margin: 10%;
+    }
+}
+
+#barbie{
+    text-align: center;
+    padding-top: 10%;
+    .left {
+        float: left;
+        background: #FF69B4;
+        width: 50%;
+        height: 50%;
+        padding-top: 10%;
+    }
+    .right {
+        float: right;
+        color: white;
+        text-align: center;
+        width: 50%;
+        height: 50%;
+        padding-top: 10%;
+    }
+}
+
+#oppie{
+    text-align: center;
+    .left {
+        float: left;
+        color: white;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        padding-top: 2.5%;
+        .text {
+            padding-top: 45%;
+        }
+    }
+    .right {
+        float: right;
+        background: rgb(99, 99, 99);
+        width: 50%;
+        height: 50%;
+        padding-top: 5%;
+    }
+}
+
+#barbie-header {
+    .left {
+        float: left;
+        background-image: url(barbie-poster.jpg);
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+    }
+    .right {
+        float: right;
+        color: white;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        .text {
+            padding-top: 45%;
+        }
+    }
+}
+
+#oppie-header {
+    .left {
+        float: left;
+        background-image: url(oppie-poster.jpg);
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+    }
+    .right {
+        float: right;
+        color: white;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        .text {
+            padding-top: 45%;
+        }
+    }
 }
 
 table, tr, td  {
@@ -37,15 +129,6 @@ table, tr, td  {
     margin-top: 10%;
 }
 
-#barbie-table {
-    float: right;
-    margin-right: 0.1%;
-}
-
-#oppie-table{
-    float: left;
-    margin-left: 0.1%;
-}
 
 #oppie-page{
     background: rgb(99, 99, 99);
