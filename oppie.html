@@ -9,34 +9,30 @@
         <div class='left'></div>
         <div class="right">
             <div class="text">
-                <label>Where to next?</label>
-                <select>
+                <label>Learn more about</label>
+                <select id='naver' onchange="display()">
                     <option value="Select One" selected>Select One</option>
-                    <option value="Cast">Cast</option>
-                    <option value="Production Timeline">Production Timeline</option>
-                    <option value="Box Office Statistics">Box Office Statistics</option>
+                    <option value="cast">Cast</option>
+                    <option value="prod">Production Timeline</option>
+                    <option value="stats">Box Office Statistics</option>
                 </select>
             </div>
-            <div>
-                <div id="info">
-                    <p>
-                        Cast
-                        <ul>
-                            <li>Cillian Murphy</li>
-                        </ul>
-                        Production
-                        <ul>
-                            <li>Universal Studios</li>
-                        </ul>
-                        Release
-                        <ul>
-                            <li>july</li>
-                        </ul>
-                    </p>
-                </div>
+            <div id="output">
+                <div id="cast" class="hider">This is a bunch of info</div>
+                <div id="prod" class="hider">So is this</div>
+                <div id="stats" class="hider">This is more</div>
             </div>
         </div>
     </div>
+    <script>
+        function display() {
+            document.getElementById('cast').className = 'hider'
+            document.getElementById('prod').className = 'hider'
+            document.getElementById('stats').className = 'hider'
+            curr = document.getElementById('naver').value;
+            document.getElementById(curr).className = 'displayer'
+        }
+    </script>
 </body>
 
 </html>
