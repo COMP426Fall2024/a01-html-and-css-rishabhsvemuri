@@ -10,18 +10,71 @@
         <div class='left'></div>
         <div class="right">
             <div class="text">
+                <p>See the preparations for battle.</p>
                 <label>Learn more about</label>
                 <select id='naver' onchange="display()">
                     <option value="Select One" selected>Select One</option>
-                    <option value="cast">Cast</option>
+                    <option value="cast">Cast and Crew</option>
                     <option value="prod">Production Timeline</option>
                     <option value="stats">Box Office Statistics</option>
                 </select>
             </div>
             <div id="output">
-                <div id="cast" class="hider">This is a bunch of info</div>
-                <div id="prod" class="hider">So is this</div>
-                <div id="stats" class="hider">This is more</div>
+                <div id="cast" class="hider">
+                    <ul>
+                        <li>Director</li>
+                        <ul>
+                            <li>Greta Gerwig</li>
+                        </ul>
+                        <li>Cast</li>
+                        <ul>
+                            <li>Margot Robbie</li>
+                            <li>Ryan Gosling</li>
+                            <li>America Ferrera</li>
+                        </ul>
+                        <li>Producers</li>
+                        <ul>
+                            <li>David Heyman</li>
+                            <li>Margot Robbie</li>
+                            <li>Tom Ackerley</li>
+                            <li>Robbie Brenner</li>
+                        </ul>
+                        <li>Music</li>
+                        <ul>
+                            <li>Mark Ronson</li>
+                            <li>Andrew Wyatt</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div id="prod" class="hider">
+                    <ul>
+                        <li>2018 to 2019</li>
+                        <ul>
+                            <li>October 2018: Sony's previous option to produce a 'Barbie' film expires</li>
+                            <li>October 2018: Warner Bros. Pictures gains access to the rights through transfer</li>
+                            <li>July 2019: Margot is confirmed as the titular character</li>
+                        </ul>
+                        <li>2020 to 2021</li>
+                        <ul>
+                            <li>COVID-19 Pandemic: Greta Gerwig and Noah Baumbach begin writing the script</li>
+                        </ul>
+                        <li>2022 to 2023</li>
+                        <ul>
+                            <li>March 22, 2022: Principal Photography begings at Warner Bros. Studios</li>
+                            <li>July 21, 2022: Filming wraps</li>
+                            <li>July 9, 2023: 'Barbie' (2023) premieres at the Shring Auditorium</li>
+                            <li>July 21, 2023: 'Barbie' (2023) releases globally</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div id="stats" class="hider">
+                    <ul>
+                        <li>Budget: $145 million</li>
+                        <li>United States and Canada: $636.2 million</li>
+                        <li>International: $809.4 million</li>
+                        <li>Worldwide: $1.446 billion</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
