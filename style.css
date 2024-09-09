@@ -81,6 +81,10 @@ body {
     }
 }
 
+.table {
+    padding-top: 175px;
+}
+
 #oppie{
     text-align: center;
     width: 100%;
@@ -92,7 +96,6 @@ body {
         text-align: center;
         width: 50%;
         height: 100%;
-
     }
     .right {
         float: right;
