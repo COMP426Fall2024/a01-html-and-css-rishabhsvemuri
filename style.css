@@ -40,7 +40,7 @@ body {
 #the-battle {
     color: white;
     text-align: center;
-    padding-top: 60%;
+    padding-top: 750px;
     height: 50%;
     
     .text {
@@ -50,7 +50,6 @@ body {
 
 #barbie{
     text-align: center;
-    padding-top: 10px;
     width: 100%;
     height: 500px;
     .left {
@@ -117,6 +116,12 @@ body {
 #barbie-header {
     width: 100%;
     height: 100%;
+    p, label {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    ul, li {
+        font-family:'Courier New', Courier, monospace;
+    }
     .left {
         float: left;
         background-image: url(barbie-poster.jpg);
@@ -140,6 +145,12 @@ body {
 #oppie-header {
     width: 100%;
     height: 100%;
+    p, label {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    ul, li {
+        font-family:'Courier New', Courier, monospace;
+    }
     .left {
         float: left;
         background-image: url(oppie-poster.jpg);
