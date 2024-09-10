@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang = 'en'>
 <head>
     <title>Oppenheimer</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -7,10 +7,12 @@
 
 <body id='oppie-page'>
     <div class="home">
-        <a href="index.html"><button>HOME</button></a>
+        <button onclick="home()">HOME</button>
     </div>
     <div id="oppie-header">
-        <div class='left'></div>
+        <div class='left'>
+            <img src="oppie-poster.jpg" alt="oppenheimer poster">
+        </div>
         <div class="right">
             <div class="text">
                 <p>See the preparations for battle.</p>
@@ -25,58 +27,54 @@
             <hr>
             <div id="output">
                 <div id="cast" class="hider">
+                    <p>Director</p>
                     <ul>
-                        <li>Director</li>
-                        <ul>
-                            <li>Christopher Nolan</li>
-                        </ul>
-                        <li>Based on</li>
-                        <ul>
-                            <li> American Prometheus by Kai Bird Martin J. Sherwin</li>
-                        </ul>
-                        <li>Writer</li>
-                        <ul>
-                            <li>Christopher Nolan</li>
-                        </ul>
-                        <li>Cast</li>
-                        <ul>
-                            <li>Cillian Murphy</li>
-                            <li>Robert Downey Jr.</li>
-                            <li>Emily Blunt</li>
-                        </ul>
-                        <li>Producers</li>
-                        <ul>
-                            <li>Emma Thomas</li>
-                            <li>Charles Roven</li>
-                            <li>Christopher Nolan</li>
-                        </ul>
-                        <li>Music</li>
-                        <ul>
-                            <li>Ludwig Göransson</li>
-                        </ul>
+                        <li>Christopher Nolan</li>
+                    </ul>
+                    <p>Based on</p>
+                    <ul>
+                        <li> American Prometheus by Kai Bird Martin J. Sherwin</li>
+                    </ul>
+                    <p>Writer</p>
+                    <ul>
+                        <li>Christopher Nolan</li>
+                    </ul>
+                    <p>Cast</p>
+                    <ul>
+                        <li>Cillian Murphy</li>
+                        <li>Robert Downey Jr.</li>
+                        <li>Emily Blunt</li>
+                    </ul>
+                    <p>Producers</p>
+                    <ul>
+                        <li>Emma Thomas</li>
+                        <li>Charles Roven</li>
+                        <li>Christopher Nolan</li>
+                    </ul>
+                    <p>Music</p>
+                    <ul>
+                        <li>Ludwig Göransson</li>
                     </ul>
                 </div>
                 <div id="prod" class="hider">
+                    <p>2021</p>
                     <ul>
-                        <li>2021</li>
-                        <ul>
-                            <li>Mid 2021: Nolan leaves Warner Bros. pictures amidst conflict over 'Tenet's' (2021) release</li>
-                            <li>September 2021: Nolan announces his next film as a biographical film on Oppenheimer</li>
-                            <li>September 2021: Nolan discusses his script with 'American Prometheus' authors Bird and Sherwin</li>
-                            <li>End of 2021: Nolan signs with Universal Studios for financing and distributing 'Oppenheimer' (2023)</li>
-                        </ul>
-                        <li>2022</li>
-                        <ul>
-                            <li>January 2022: Pre-production begins in Los Alamos. New Mexico.</li>
-                            <li>February 28 2022: Principal photography begins, lasting for 57 days.</li>
-                            <li>Filming days were cut from 85 to 57 days to stay within budget, sets were built to increase pace.</li>
-                            <li>May 2022: Filming wraps.</li>
-                        </ul>
-                        <li>2023</li>
-                        <ul>
-                            <li>July 11, 2023: 'Oppenheimer' (2023) premieres at Le Grand Rex</li>
-                            <li>July 21, 2023: 'Oppenheimer' (2023) releases globally</li>
-                        </ul>
+                        <li>Mid 2021: Nolan leaves Warner Bros. pictures amidst conflict over 'Tenet's' (2021) release</li>
+                        <li>September 2021: Nolan announces his next film as a biographical film on Oppenheimer</li>
+                        <li>September 2021: Nolan discusses his script with 'American Prometheus' authors Bird and Sherwin</li>
+                        <li>End of 2021: Nolan signs with Universal Studios for financing and distributing 'Oppenheimer' (2023)</li>
+                    </ul>
+                    <p>2022</p>
+                    <ul>
+                        <li>January 2022: Pre-production begins in Los Alamos. New Mexico.</li>
+                        <li>February 28 2022: Principal photography begins, lasting for 57 days.</li>
+                        <li>Filming days were cut from 85 to 57 days to stay within budget, sets were built to increase pace.</li>
+                        <li>May 2022: Filming wraps.</li>
+                    </ul>
+                    <p>2023</p>
+                    <ul>
+                        <li>July 11, 2023: 'Oppenheimer' (2023) premieres at Le Grand Rex</li>
+                        <li>July 21, 2023: 'Oppenheimer' (2023) releases globally</li>
                     </ul>
                 </div>
                 <div id="stats" class="hider">
@@ -97,6 +95,9 @@
             document.getElementById('stats').className = 'hider'
             curr = document.getElementById('naver').value;
             document.getElementById(curr).className = 'displayer'
+        }
+        function home() {
+            window.location.href= 'index.html'
         }
     </script>
 </body>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang = 'en'>
 <head>
     <title>Barbie</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -7,10 +7,12 @@
 
 <body id='barbie-page'>
     <div class="home">
-        <a href="index.html"><button>HOME</button></a>
+        <button onclick="home()">HOME</button>
     </div>
     <div id="barbie-header">
-        <div class='left'></div>
+        <div class='left'>
+            <img src="barbie-poster.jpg" alt="barbie poster">
+        </div>
         <div class="right">
             <div class="text">
                 <p>See the preparations for battle.</p>
@@ -25,55 +27,51 @@
             <hr>
             <div id="output">
                 <div id="cast" class="hider">
+                    <p>Director</p>
                     <ul>
-                        <li>Director</li>
-                        <ul>
-                            <li>Greta Gerwig</li>
-                        </ul>
-                        <li>Writers</li>
-                        <ul>
-                            <li>Greta Gerwig</li>
-                            <li>Noah Baumbach</li>
-                        </ul>
-                        <li>Cast</li>
-                        <ul>
-                            <li>Margot Robbie</li>
-                            <li>Ryan Gosling</li>
-                            <li>America Ferrera</li>
-                        </ul>
-                        <li>Producers</li>
-                        <ul>
-                            <li>David Heyman</li>
-                            <li>Margot Robbie</li>
-                            <li>Tom Ackerley</li>
-                            <li>Robbie Brenner</li>
-                        </ul>
-                        <li>Music</li>
-                        <ul>
-                            <li>Mark Ronson</li>
-                            <li>Andrew Wyatt</li>
-                        </ul>
+                        <li>Greta Gerwig</li>
+                    </ul>
+                    <p>Writers</p>
+                    <ul>
+                        <li>Greta Gerwig</li>
+                        <li>Noah Baumbach</li>
+                    </ul>
+                    <p>Cast</p>
+                    <ul>
+                        <li>Margot Robbie</li>
+                        <li>Ryan Gosling</li>
+                        <li>America Ferrera</li>
+                    </ul>
+                    <p>Producers</p>
+                    <ul>
+                        <li>David Heyman</li>
+                        <li>Margot Robbie</li>
+                        <li>Tom Ackerley</li>
+                        <li>Robbie Brenner</li>
+                    </ul>
+                    <p>Music</p>
+                    <ul>
+                        <li>Mark Ronson</li>
+                        <li>Andrew Wyatt</li>
                     </ul>
                 </div>
                 <div id="prod" class="hider">
+                    <p>2018 to 2019</p>
                     <ul>
-                        <li>2018 to 2019</li>
-                        <ul>
-                            <li>October 2018: Sony's previous option to produce a 'Barbie' film expires</li>
-                            <li>October 2018: Warner Bros. Pictures gains access to the rights through transfer</li>
-                            <li>July 2019: Margot is confirmed as the titular character</li>
-                        </ul>
-                        <li>2020 to 2021</li>
-                        <ul>
-                            <li>COVID-19 Pandemic: Greta Gerwig and Noah Baumbach begin writing the script</li>
-                        </ul>
-                        <li>2022 to 2023</li>
-                        <ul>
-                            <li>March 22, 2022: Principal Photography begings at Warner Bros. Studios</li>
-                            <li>July 21, 2022: Filming wraps</li>
-                            <li>July 9, 2023: 'Barbie' (2023) premieres at The Shring Auditorium</li>
-                            <li>July 21, 2023: 'Barbie' (2023) releases globally</li>
-                        </ul>
+                        <li>October 2018: Sony's previous option to produce a 'Barbie' film expires</li>
+                        <li>October 2018: Warner Bros. Pictures gains access to the rights through transfer</li>
+                        <li>July 2019: Margot is confirmed as the titular character</li>
+                    </ul>
+                    <p>2020 to 2021</p>
+                    <ul>
+                        <li>COVID-19 Pandemic: Greta Gerwig and Noah Baumbach begin writing the script</li>
+                    </ul>
+                    <p>2022 to 2023</p>
+                    <ul>
+                        <li>March 22, 2022: Principal Photography begings at Warner Bros. Studios</li>
+                        <li>July 21, 2022: Filming wraps</li>
+                        <li>July 9, 2023: 'Barbie' (2023) premieres at The Shring Auditorium</li>
+                        <li>July 21, 2023: 'Barbie' (2023) releases globally</li>
                     </ul>
                 </div>
                 <div id="stats" class="hider">
@@ -94,6 +92,9 @@
             document.getElementById('stats').className = 'hider'
             curr = document.getElementById('naver').value;
             document.getElementById(curr).className = 'displayer'
+        }
+        function home() {
+            window.location.href= 'index.html'
         }
     </script>
 </body>

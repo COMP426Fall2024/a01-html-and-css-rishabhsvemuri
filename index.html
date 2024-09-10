@@ -7,11 +7,13 @@
 
 <body id="container">
     <div class="home">
-        <a href="index.html"><button>HOME</button></a>
+        <button onclick="home()">HOME</button>
     </div>
     <div>
         <div id="header">
-            <div class='left'></div>
+            <div class='left'>
+                <img src="barbenheimer.jpg" alt="barbenheimer">
+            </div>
             <div class="right">
                 <div class="text">
                     <h1>BARBENHEIMER</h1>
@@ -60,12 +62,12 @@
             </div>
             </div>
             <div class="right"> 
-                <img src="barbie.jpg" width="500px" height=500px" alt="barbie">
+                <img src="barbie.jpg" width="500" height="500" alt="barbie">
             </div>
         </div>
         <div id='oppie'>
             <div class="left">
-                <img src="oppie.jpg" width="500px" height="500px" alt="oppie">
+                <img src="oppie.jpg" width="500" height="500" alt="oppie">
             </div>
             <div class="right">
                 <div class="table">
@@ -99,6 +101,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function home() {
+            window.location.href= 'index.html'
+        }
+    </script>
 </body>
 
 </html>
