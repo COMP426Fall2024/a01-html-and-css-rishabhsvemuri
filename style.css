@@ -216,3 +216,7 @@ body {
 .hider {
     display: none;
 }
+
+#sources {
+    background-color: white;
+}
