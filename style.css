@@ -155,7 +155,7 @@ body {
 
 #barbie-header .right .text {
     padding-top: 10%;
-    padding-left: 35%;
+    text-align: center;
 }
 
 #barbie-header .left img {
@@ -191,7 +191,7 @@ body {
 
 #oppie-header .right .text {
     padding-top: 10%;
-    padding-left: 35%;
+    text-align: center;
 }
 
 #oppie-header .left img {
