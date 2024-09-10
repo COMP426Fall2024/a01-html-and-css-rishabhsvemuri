@@ -108,7 +108,7 @@ body {
 
 #oppie .left {
     float: left;
-    background: rgb(99, 99, 99);
+    background: #636363;
     color: white;
     text-align: center;
     width: 50%;
@@ -122,8 +122,8 @@ body {
 }
 
 #oppie table, tr, td  {
-    border-color: rgb(99, 99, 99);
-    border: 1px solid rgb(99, 99, 99);
+    border-color: #636363;
+    border: 1px solid #636363;
     text-align: center;
     color: #C04000;
     margin: auto;
@@ -201,7 +201,7 @@ body {
 }
 
 #oppie-page{
-    background: rgb(99, 99, 99);
+    background: #636363;
 }
 
 #barbie-page{
